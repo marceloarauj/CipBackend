@@ -1,3 +1,4 @@
+using Amazon.S3;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +14,10 @@ namespace ProjetoEscolar.Configurations
             
             #region Services
             services.AddTransient<RegisterService>();
+            services.AddTransient<FileService>();
+            services.AddSingleton<IConfiguration>(configuration);
+            services.AddDefaultAWSOptions(configuration.GetAWSOptions("AWS"));
+            services.AddAWSService<IAmazonS3>();
             #endregion
 
             #region Repositories

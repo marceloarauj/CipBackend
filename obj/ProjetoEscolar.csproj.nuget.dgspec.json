@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj": {}
+    "c:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj": {
+    "c:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj",
+        "projectUniqueName": "c:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj",
         "projectName": "ProjetoEscolar",
-        "projectPath": "C:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj",
+        "projectPath": "c:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\ProjetoEscolar.csproj",
         "packagesPath": "C:\\Users\\marcelo.araujo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\obj\\",
+        "outputPath": "c:\\Users\\marcelo.araujo\\Desktop\\ProjetoEscolar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,6 +43,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.3.107.10, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.101, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.111.11, )"
+            },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.2.0, )"

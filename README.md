@@ -22,3 +22,9 @@ https://docs.microsoft.com/pt-br/ef/ef6/modeling/code-first/fluent/relationships
 
 # Deploy no heroku
 https://elements.heroku.com/buildpacks/jincod/dotnetcore-buildpack
+
+
+# Tipos de usuário
+1- Aluno
+2- Admin
+3- Professor

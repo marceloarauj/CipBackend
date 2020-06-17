@@ -16,8 +16,6 @@ C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\Microsoft
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.csprojAssemblyReference.cache
-C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.csproj.CoreCompileInputs.cache
-C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.AssemblyInfoInputs.cache
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.AssemblyInfo.cs
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.RazorTargetAssemblyInfo.cache
@@ -27,7 +25,6 @@ C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\staticweb
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.dll
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.pdb
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.genruntimeconfig.cache
-C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -53,3 +50,11 @@ C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\Swashbuck
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.csproj.CoreCompileInputs.cache
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\obj\Debug\netcoreapp3.1\ProjetoEscolar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\app.config
+C:\Users\marcelo.araujo\Desktop\ProjetoEscolar\bin\Debug\netcoreapp3.1\ProjetoEscolar.dll.config

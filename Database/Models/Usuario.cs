@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace ProjetoEscolar.Database.Models
 {
     public class Usuario
@@ -7,5 +9,7 @@ namespace ProjetoEscolar.Database.Models
         public string Senha {get;set;}
         public string Nome {get;set;}
         public int Tipo {get;set;} 
+        public ICollection<CadastroCurso> Cadastros{get;set;}
+        public ICollection<ModuloUsuario> ModuloUsu{get;set;}
     }
 }

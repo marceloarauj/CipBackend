@@ -9,7 +9,7 @@ using ProjetoEscolar.Database;
 namespace ProjetoEscolar.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20200616011132_Migrations")]
+    [Migration("20200617023214_Migrations")]
     partial class Migrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -19,6 +19,39 @@ namespace ProjetoEscolar.Migrations
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
                 .HasAnnotation("ProductVersion", "3.1.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
+
+            modelBuilder.Entity("ProjetoEscolar.Database.Models.CadastroCurso", b =>
+                {
+                    b.Property<int>("IdUsuario")
+                        .HasColumnName("id_usuario")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("IdCurso")
+                        .HasColumnName("id_curso")
+                        .HasColumnType("integer");
+
+                    b.HasKey("IdUsuario");
+
+                    b.HasIndex("IdCurso");
+
+                    b.ToTable("cadastro_curso");
+                });
+
+            modelBuilder.Entity("ProjetoEscolar.Database.Models.Curso", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<string>("Nome")
+                        .HasColumnName("nome")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("curso");
+                });
 
             modelBuilder.Entity("ProjetoEscolar.Database.Models.Usuario", b =>
                 {
@@ -47,6 +80,21 @@ namespace ProjetoEscolar.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("usuario");
+                });
+
+            modelBuilder.Entity("ProjetoEscolar.Database.Models.CadastroCurso", b =>
+                {
+                    b.HasOne("ProjetoEscolar.Database.Models.Curso", "Curs")
+                        .WithMany("Cadastros")
+                        .HasForeignKey("IdCurso")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProjetoEscolar.Database.Models.Usuario", "Usu")
+                        .WithMany("Cadastros")
+                        .HasForeignKey("IdUsuario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
